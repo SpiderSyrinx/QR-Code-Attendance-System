@@ -41,7 +41,7 @@
 // Load current user
 const currentUserEmail = sessionStorage.getItem('currentUser');
 if (!currentUserEmail) {
-    window.location.href = "index.html"; // redirect if not logged in
+    window.location.href = "log.html"; // redirect if not logged in
 }
 const user = JSON.parse(localStorage.getItem(currentUserEmail));
 
